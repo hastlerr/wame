@@ -3,17 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17656F16BA7361586A306D34 /* Pods_WAME.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC09699353799F347B331FE /* Pods_WAME.framework */; };
+		2E1A508923F52EB200F68C32 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A508823F52EB200F68C32 /* User.swift */; };
+		2E1A508C23F930E700F68C32 /* NumberSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A508B23F930E700F68C32 /* NumberSettingsView.swift */; };
+		2E1A509023F9317B00F68C32 /* NumberSettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E1A508F23F9317B00F68C32 /* NumberSettingsView.xib */; };
+		2E1A509523F93EB800F68C32 /* String+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A509423F93EB800F68C32 /* String+Helper.swift */; };
+		2EBC73B223FA6F81001EF93F /* ClipboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC73B023FA6F81001EF93F /* ClipboardView.swift */; };
+		2EBC73B323FA7178001EF93F /* ClipboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EBC73B123FA6F81001EF93F /* ClipboardView.xib */; };
+		2EBC73B623FC67FB001EF93F /* WhatsAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC73B523FC67FB001EF93F /* WhatsAppManager.swift */; };
+		2EBC73B823FC68E8001EF93F /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC73B723FC68E8001EF93F /* AlertManager.swift */; };
+		2EBC73BA23FD454F001EF93F /* NSNotifications+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC73B923FD454F001EF93F /* NSNotifications+Helper.swift */; };
+		2EBC73BD23FD4EB8001EF93F /* UITableViewCell+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC73BB23FD4EB8001EF93F /* UITableViewCell+Helper.swift */; };
+		2EBC73BE23FD4EB8001EF93F /* UITableView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC73BC23FD4EB8001EF93F /* UITableView+Helper.swift */; };
 		2EEF237E2346646F00A4099F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF237D2346646F00A4099F /* AppDelegate.swift */; };
 		2EEF23802346646F00A4099F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF237F2346646F00A4099F /* SceneDelegate.swift */; };
-		2EEF23822346646F00A4099F /* PrepareNumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF23812346646F00A4099F /* PrepareNumberVC.swift */; };
+		2EEF23822346646F00A4099F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF23812346646F00A4099F /* MainViewController.swift */; };
 		2EEF23852346646F00A4099F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EEF23832346646F00A4099F /* Main.storyboard */; };
 		2EEF23872346647000A4099F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EEF23862346647000A4099F /* Assets.xcassets */; };
 		2EEF238A2346647000A4099F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EEF23882346647000A4099F /* LaunchScreen.storyboard */; };
 		2EEF23952346647000A4099F /* WAMETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF23942346647000A4099F /* WAMETests.swift */; };
+		41C911D8D0268FE4B04CE207 /* Pods_WAMETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181E9B1AEE2BE0DB2C7A0974 /* Pods_WAMETests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +40,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181E9B1AEE2BE0DB2C7A0974 /* Pods_WAMETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAMETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1A508823F52EB200F68C32 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2E1A508B23F930E700F68C32 /* NumberSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberSettingsView.swift; sourceTree = "<group>"; };
+		2E1A508F23F9317B00F68C32 /* NumberSettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberSettingsView.xib; sourceTree = "<group>"; };
+		2E1A509423F93EB800F68C32 /* String+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Helper.swift"; sourceTree = "<group>"; };
+		2EBC73B023FA6F81001EF93F /* ClipboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardView.swift; sourceTree = "<group>"; };
+		2EBC73B123FA6F81001EF93F /* ClipboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClipboardView.xib; sourceTree = "<group>"; };
+		2EBC73B523FC67FB001EF93F /* WhatsAppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppManager.swift; sourceTree = "<group>"; };
+		2EBC73B723FC68E8001EF93F /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		2EBC73B923FD454F001EF93F /* NSNotifications+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNotifications+Helper.swift"; sourceTree = "<group>"; };
+		2EBC73BB23FD4EB8001EF93F /* UITableViewCell+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Helper.swift"; sourceTree = "<group>"; };
+		2EBC73BC23FD4EB8001EF93F /* UITableView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Helper.swift"; sourceTree = "<group>"; };
 		2EEF237A2346646F00A4099F /* WAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EEF237D2346646F00A4099F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EEF237F2346646F00A4099F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2EEF23812346646F00A4099F /* PrepareNumberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareNumberVC.swift; sourceTree = "<group>"; };
+		2EEF23812346646F00A4099F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2EEF23842346646F00A4099F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EEF23862346647000A4099F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EEF23892346647000A4099F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +63,11 @@
 		2EEF23902346647000A4099F /* WAMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WAMETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EEF23942346647000A4099F /* WAMETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAMETests.swift; sourceTree = "<group>"; };
 		2EEF23962346647000A4099F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FA8F2166890321BDB1012FD /* Pods-WAMETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAMETests.release.xcconfig"; path = "Target Support Files/Pods-WAMETests/Pods-WAMETests.release.xcconfig"; sourceTree = "<group>"; };
+		82CBAFE3E7D46F28843BBD9F /* Pods-WAMETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAMETests.debug.xcconfig"; path = "Target Support Files/Pods-WAMETests/Pods-WAMETests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAF9264208EC9332469E5778 /* Pods-WAME.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAME.debug.xcconfig"; path = "Target Support Files/Pods-WAME/Pods-WAME.debug.xcconfig"; sourceTree = "<group>"; };
+		EAC09699353799F347B331FE /* Pods_WAME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4724A7EE82CC6C5470D5B7 /* Pods-WAME.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAME.release.xcconfig"; path = "Target Support Files/Pods-WAME/Pods-WAME.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17656F16BA7361586A306D34 /* Pods_WAME.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +83,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C911D8D0268FE4B04CE207 /* Pods_WAMETests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1729DF7A137ABD22C8DAA239 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9264208EC9332469E5778 /* Pods-WAME.debug.xcconfig */,
+				FE4724A7EE82CC6C5470D5B7 /* Pods-WAME.release.xcconfig */,
+				82CBAFE3E7D46F28843BBD9F /* Pods-WAMETests.debug.xcconfig */,
+				5FA8F2166890321BDB1012FD /* Pods-WAMETests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2E1A508A23F9309900F68C32 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2EEF23832346646F00A4099F /* Main.storyboard */,
+				2E1A508B23F930E700F68C32 /* NumberSettingsView.swift */,
+				2E1A508F23F9317B00F68C32 /* NumberSettingsView.xib */,
+				2EBC73B023FA6F81001EF93F /* ClipboardView.swift */,
+				2EBC73B123FA6F81001EF93F /* ClipboardView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E1A509123F93DAB00F68C32 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2EEF23812346646F00A4099F /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2E1A509223F93DD100F68C32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2EEF23862346647000A4099F /* Assets.xcassets */,
+				2EEF23882346647000A4099F /* LaunchScreen.storyboard */,
+				2EEF238B2346647000A4099F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2E1A509323F93EA500F68C32 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2EBC73BC23FD4EB8001EF93F /* UITableView+Helper.swift */,
+				2EBC73BB23FD4EB8001EF93F /* UITableViewCell+Helper.swift */,
+				2E1A509423F93EB800F68C32 /* String+Helper.swift */,
+				2EBC73B923FD454F001EF93F /* NSNotifications+Helper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2EB5CB5A23F52E36005226E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E1A508823F52EB200F68C32 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2EBC73B423FC67DD001EF93F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2EBC73B523FC67FB001EF93F /* WhatsAppManager.swift */,
+				2EBC73B723FC68E8001EF93F /* AlertManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		2EEF23712346646F00A4099F = {
 			isa = PBXGroup;
 			children = (
 				2EEF237C2346646F00A4099F /* WAME */,
 				2EEF23932346647000A4099F /* WAMETests */,
 				2EEF237B2346646F00A4099F /* Products */,
+				1729DF7A137ABD22C8DAA239 /* Pods */,
+				5DF308B3D0598D9D9BF772E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +184,12 @@
 			children = (
 				2EEF237D2346646F00A4099F /* AppDelegate.swift */,
 				2EEF237F2346646F00A4099F /* SceneDelegate.swift */,
-				2EEF23812346646F00A4099F /* PrepareNumberVC.swift */,
-				2EEF23832346646F00A4099F /* Main.storyboard */,
-				2EEF23862346647000A4099F /* Assets.xcassets */,
-				2EEF23882346647000A4099F /* LaunchScreen.storyboard */,
-				2EEF238B2346647000A4099F /* Info.plist */,
+				2EBC73B423FC67DD001EF93F /* Managers */,
+				2E1A509323F93EA500F68C32 /* Extensions */,
+				2EB5CB5A23F52E36005226E3 /* Models */,
+				2E1A509123F93DAB00F68C32 /* Controllers */,
+				2E1A508A23F9309900F68C32 /* Views */,
+				2E1A509223F93DD100F68C32 /* Resources */,
 			);
 			path = WAME;
 			sourceTree = "<group>";
@@ -99,6 +203,15 @@
 			path = WAMETests;
 			sourceTree = "<group>";
 		};
+		5DF308B3D0598D9D9BF772E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAC09699353799F347B331FE /* Pods_WAME.framework */,
+				181E9B1AEE2BE0DB2C7A0974 /* Pods_WAMETests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EEF23992346647000A4099F /* Build configuration list for PBXNativeTarget "WAME" */;
 			buildPhases = (
+				CC316143B415646CA53A2C8C /* [CP] Check Pods Manifest.lock */,
 				2EEF23762346646F00A4099F /* Sources */,
 				2EEF23772346646F00A4099F /* Frameworks */,
 				2EEF23782346646F00A4099F /* Resources */,
+				41F7E18EF22CFC3366248E17 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EEF239C2346647000A4099F /* Build configuration list for PBXNativeTarget "WAMETests" */;
 			buildPhases = (
+				196A6DD43510F3F343387324 /* [CP] Check Pods Manifest.lock */,
 				2EEF238C2346647000A4099F /* Sources */,
 				2EEF238D2346647000A4099F /* Frameworks */,
 				2EEF238E2346647000A4099F /* Resources */,
@@ -180,6 +296,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBC73B323FA7178001EF93F /* ClipboardView.xib in Resources */,
+				2E1A509023F9317B00F68C32 /* NumberSettingsView.xib in Resources */,
 				2EEF238A2346647000A4099F /* LaunchScreen.storyboard in Resources */,
 				2EEF23872346647000A4099F /* Assets.xcassets in Resources */,
 				2EEF23852346646F00A4099F /* Main.storyboard in Resources */,
@@ -195,14 +313,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		196A6DD43510F3F343387324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WAMETests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41F7E18EF22CFC3366248E17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WAME/Pods-WAME-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WAME/Pods-WAME-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WAME/Pods-WAME-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC316143B415646CA53A2C8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WAME-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2EEF23762346646F00A4099F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EEF23822346646F00A4099F /* PrepareNumberVC.swift in Sources */,
+				2E1A509523F93EB800F68C32 /* String+Helper.swift in Sources */,
+				2EBC73BA23FD454F001EF93F /* NSNotifications+Helper.swift in Sources */,
+				2E1A508923F52EB200F68C32 /* User.swift in Sources */,
+				2EBC73BE23FD4EB8001EF93F /* UITableView+Helper.swift in Sources */,
+				2EBC73B223FA6F81001EF93F /* ClipboardView.swift in Sources */,
+				2EBC73B623FC67FB001EF93F /* WhatsAppManager.swift in Sources */,
+				2EEF23822346646F00A4099F /* MainViewController.swift in Sources */,
 				2EEF237E2346646F00A4099F /* AppDelegate.swift in Sources */,
+				2E1A508C23F930E700F68C32 /* NumberSettingsView.swift in Sources */,
 				2EEF23802346646F00A4099F /* SceneDelegate.swift in Sources */,
+				2EBC73BD23FD4EB8001EF93F /* UITableViewCell+Helper.swift in Sources */,
+				2EBC73B823FC68E8001EF93F /* AlertManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +539,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -360,11 +551,12 @@
 		};
 		2EEF239A2346647000A4099F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF9264208EC9332469E5778 /* Pods-WAME.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AWXA559AVD;
-				INFOPLIST_FILE = WAME/Info.plist;
+				INFOPLIST_FILE = WAME/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,11 +570,12 @@
 		};
 		2EEF239B2346647000A4099F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4724A7EE82CC6C5470D5B7 /* Pods-WAME.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AWXA559AVD;
-				INFOPLIST_FILE = WAME/Info.plist;
+				INFOPLIST_FILE = WAME/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,6 +589,7 @@
 		};
 		2EEF239D2346647000A4099F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82CBAFE3E7D46F28843BBD9F /* Pods-WAMETests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +612,7 @@
 		};
 		2EEF239E2346647000A4099F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA8F2166890321BDB1012FD /* Pods-WAMETests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
