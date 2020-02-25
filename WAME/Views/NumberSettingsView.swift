@@ -63,6 +63,7 @@ class NumberSettingsView: UIView {
 
     @IBAction func withPrefixDidChange(_ sender: UISwitch) {
         textField.withPrefix = sender.isOn
+        textField.phoneNumberKit.
     }
 
     @IBAction func withFlagDidChange(_ sender: UISwitch) {

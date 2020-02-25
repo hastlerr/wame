@@ -12,13 +12,13 @@
 		2E1A508C23F930E700F68C32 /* NumberSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A508B23F930E700F68C32 /* NumberSettingsView.swift */; };
 		2E1A509023F9317B00F68C32 /* NumberSettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E1A508F23F9317B00F68C32 /* NumberSettingsView.xib */; };
 		2E1A509523F93EB800F68C32 /* String+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A509423F93EB800F68C32 /* String+Helper.swift */; };
-		2EBC73B223FA6F81001EF93F /* ClipboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC73B023FA6F81001EF93F /* ClipboardView.swift */; };
-		2EBC73B323FA7178001EF93F /* ClipboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EBC73B123FA6F81001EF93F /* ClipboardView.xib */; };
 		2EBC73B623FC67FB001EF93F /* WhatsAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC73B523FC67FB001EF93F /* WhatsAppManager.swift */; };
 		2EBC73B823FC68E8001EF93F /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC73B723FC68E8001EF93F /* AlertManager.swift */; };
 		2EBC73BA23FD454F001EF93F /* NSNotifications+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC73B923FD454F001EF93F /* NSNotifications+Helper.swift */; };
 		2EBC73BD23FD4EB8001EF93F /* UITableViewCell+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC73BB23FD4EB8001EF93F /* UITableViewCell+Helper.swift */; };
 		2EBC73BE23FD4EB8001EF93F /* UITableView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC73BC23FD4EB8001EF93F /* UITableView+Helper.swift */; };
+		2EBC73C123FD68A2001EF93F /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC73BF23FD68A2001EF93F /* HistoryTableViewCell.swift */; };
+		2EBC73C223FD68A2001EF93F /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EBC73C023FD68A2001EF93F /* HistoryTableViewCell.xib */; };
 		2EEF237E2346646F00A4099F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF237D2346646F00A4099F /* AppDelegate.swift */; };
 		2EEF23802346646F00A4099F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF237F2346646F00A4099F /* SceneDelegate.swift */; };
 		2EEF23822346646F00A4099F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEF23812346646F00A4099F /* MainViewController.swift */; };
@@ -45,13 +45,13 @@
 		2E1A508B23F930E700F68C32 /* NumberSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberSettingsView.swift; sourceTree = "<group>"; };
 		2E1A508F23F9317B00F68C32 /* NumberSettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberSettingsView.xib; sourceTree = "<group>"; };
 		2E1A509423F93EB800F68C32 /* String+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Helper.swift"; sourceTree = "<group>"; };
-		2EBC73B023FA6F81001EF93F /* ClipboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardView.swift; sourceTree = "<group>"; };
-		2EBC73B123FA6F81001EF93F /* ClipboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClipboardView.xib; sourceTree = "<group>"; };
 		2EBC73B523FC67FB001EF93F /* WhatsAppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppManager.swift; sourceTree = "<group>"; };
 		2EBC73B723FC68E8001EF93F /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		2EBC73B923FD454F001EF93F /* NSNotifications+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNotifications+Helper.swift"; sourceTree = "<group>"; };
 		2EBC73BB23FD4EB8001EF93F /* UITableViewCell+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Helper.swift"; sourceTree = "<group>"; };
 		2EBC73BC23FD4EB8001EF93F /* UITableView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Helper.swift"; sourceTree = "<group>"; };
+		2EBC73BF23FD68A2001EF93F /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		2EBC73C023FD68A2001EF93F /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
 		2EEF237A2346646F00A4099F /* WAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EEF237D2346646F00A4099F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EEF237F2346646F00A4099F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,8 +107,8 @@
 				2EEF23832346646F00A4099F /* Main.storyboard */,
 				2E1A508B23F930E700F68C32 /* NumberSettingsView.swift */,
 				2E1A508F23F9317B00F68C32 /* NumberSettingsView.xib */,
-				2EBC73B023FA6F81001EF93F /* ClipboardView.swift */,
-				2EBC73B123FA6F81001EF93F /* ClipboardView.xib */,
+				2EBC73BF23FD68A2001EF93F /* HistoryTableViewCell.swift */,
+				2EBC73C023FD68A2001EF93F /* HistoryTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,8 +296,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EBC73B323FA7178001EF93F /* ClipboardView.xib in Resources */,
 				2E1A509023F9317B00F68C32 /* NumberSettingsView.xib in Resources */,
+				2EBC73C223FD68A2001EF93F /* HistoryTableViewCell.xib in Resources */,
 				2EEF238A2346647000A4099F /* LaunchScreen.storyboard in Resources */,
 				2EEF23872346647000A4099F /* Assets.xcassets in Resources */,
 				2EEF23852346646F00A4099F /* Main.storyboard in Resources */,
@@ -386,9 +386,9 @@
 				2EBC73BA23FD454F001EF93F /* NSNotifications+Helper.swift in Sources */,
 				2E1A508923F52EB200F68C32 /* User.swift in Sources */,
 				2EBC73BE23FD4EB8001EF93F /* UITableView+Helper.swift in Sources */,
-				2EBC73B223FA6F81001EF93F /* ClipboardView.swift in Sources */,
 				2EBC73B623FC67FB001EF93F /* WhatsAppManager.swift in Sources */,
 				2EEF23822346646F00A4099F /* MainViewController.swift in Sources */,
+				2EBC73C123FD68A2001EF93F /* HistoryTableViewCell.swift in Sources */,
 				2EEF237E2346646F00A4099F /* AppDelegate.swift in Sources */,
 				2E1A508C23F930E700F68C32 /* NumberSettingsView.swift in Sources */,
 				2EEF23802346646F00A4099F /* SceneDelegate.swift in Sources */,

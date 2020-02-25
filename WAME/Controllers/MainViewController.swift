@@ -84,6 +84,11 @@ class MainViewController: UIViewController {
     
     // MARK: - Actions
     
+    @IBAction func clearTextFieldTapped(){
+        textField.text = ""
+        textField.updatePlaceholder()
+    }
+    
     @IBAction func openChatButtonTapped(){
         
         guard let text = textField.text, !text.isEmpty else {

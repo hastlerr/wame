@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter phone number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t1k-wz-ihJ" customClass="PhoneNumberTextField" customModule="PhoneNumberKit">
-                                <rect key="frame" x="20" y="84" width="374" height="70"/>
+                                <rect key="frame" x="20" y="84" width="354" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="K8y-N0-1Y7"/>
                                 </constraints>
@@ -50,10 +50,17 @@
                                     <action selector="openNumberSettingsTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="fcK-b4-QYO"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCu-ie-hZU">
+                                <rect key="frame" x="379" y="108" width="20" height="22"/>
+                                <state key="normal" image="xmark.circle" catalog="system"/>
+                                <connections>
+                                    <action selector="clearTextFieldTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ym4-zC-nBq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t1k-wz-ihJ" secondAttribute="trailing" constant="20" id="0p2-gv-qRD"/>
+                            <constraint firstItem="MCu-ie-hZU" firstAttribute="leading" secondItem="t1k-wz-ihJ" secondAttribute="trailing" constant="5" id="0Ak-d7-wMW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iUI-SN-ow9" secondAttribute="trailing" id="1rv-aV-De9"/>
                             <constraint firstItem="Hoc-7d-0dA" firstAttribute="top" secondItem="t1k-wz-ihJ" secondAttribute="bottom" constant="50" id="7z5-R2-pqF"/>
                             <constraint firstItem="iUI-SN-ow9" firstAttribute="top" secondItem="Hoc-7d-0dA" secondAttribute="bottom" constant="50" id="Je4-hz-VdZ"/>
@@ -62,6 +69,8 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f3K-Xp-UxO" secondAttribute="trailing" constant="20" id="Q60-Sy-tYS"/>
                             <constraint firstItem="f3K-Xp-UxO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="fXD-Ua-ods"/>
                             <constraint firstItem="t1k-wz-ihJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="grr-0a-nvR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t1k-wz-ihJ" secondAttribute="trailing" constant="40" id="j1M-FS-A7F"/>
+                            <constraint firstItem="MCu-ie-hZU" firstAttribute="centerY" secondItem="t1k-wz-ihJ" secondAttribute="centerY" id="oYk-Gg-HFG"/>
                             <constraint firstItem="t1k-wz-ihJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xQ3-Sx-0Gh"/>
                             <constraint firstItem="Hoc-7d-0dA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xir-V0-d7M"/>
                         </constraints>
@@ -81,5 +90,6 @@
     </scenes>
     <resources>
         <image name="icons8-tune-50" width="25" height="25"/>
+        <image name="xmark.circle" catalog="system" width="64" height="60"/>
     </resources>
 </document>
